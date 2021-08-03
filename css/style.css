@@ -1,0 +1,145 @@
+
+section{
+    
+    border: 0.3rem solid #920808a6;
+    border-radius: 3rem;
+    padding: 2.5rem;
+}
+.container-fluid{
+    width: 85%;
+}
+label{
+    font-family: 'David Libre', serif;
+    font-size: x-large;
+}
+button {
+    width: 100px;
+    height: 50px;
+    font-family: 'David Libre', serif;
+    
+}
+
+small {
+    color:#d80808cb;
+}
+
+.btn{
+    font-size: x-large;
+}
+
+#next{
+margin-left: 75%;
+
+}
+
+#submit{
+    
+    margin-right: 7%;
+    float: right;
+    
+}
+#back
+{
+    margin-left: 7%;
+    
+}
+
+
+section{
+    margin:40px 0px;
+}
+.navbar{
+    background-color: #920808e0;
+    font-family: 'David Libre', serif;
+    font-size: x-large;
+    
+    
+}
+.navbar-brand{
+    font-size: xx-large;
+    margin-left: 5%;
+}
+ .nav-item{
+    margin-left: 500px;
+    margin-right: 50px;
+    border: 3px solid rgb(158, 154, 154);
+    border-radius: 10px;
+    text-align: center;
+}
+.nav-link:hover{
+    color: rgb(158, 154, 154);
+}  
+img{
+    border-radius: 50%;
+    width:50px;
+    height:50;
+}
+.form-row{
+    margin: 0 10px;
+}
+.top-m{
+    margin-top: 43px;
+}
+#uni,#facultyInput
+{
+   
+     display: none;
+}
+@media (min-width: 1199.98px) { 
+    .container-fluid{
+        width: 60%;
+    }
+ }
+ @media (max-width:1160px){
+    .nav-item{
+        margin-left: 320px;}
+ }
+ @media(max-width:717px){
+    .nav-item{
+        font-size: larger;
+    }
+
+    #next{
+        margin-left: 60%;
+    }
+    .navbar-brand{
+        font-size: x-large;
+        margin-left: 0%;
+    }
+
+    .navbar-toggler{
+        width: 50px;
+        height: 40px;
+    }
+
+    .nav-item{
+        margin-left: 0px;
+        font-size: large;
+       
+    }
+ }
+ @media(max-width:372px){
+    .btn{
+        width: 70px;
+        height: 40px;
+        font-size:large;
+
+    }
+    .container-fluid{
+        width: 100%;
+    }
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    .navbar-brand{
+        font-size: large; 
+    }
+    label{
+        font-size: large;
+    }
+    
+    .top-m{
+        margin-top: 36px;
+    }    
+ }

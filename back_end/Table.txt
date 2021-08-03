@@ -1,0 +1,15 @@
+CREATE TABLE Participants(
+    id INTEGER NOT NULL UNIQUE AUTO_INCREMENT,
+    name VARCHAR(50), 
+    phone VARCHAR(11) PRIMARY KEY, 
+    email VARCHAR(50), 
+    address VARCHAR(50), 
+    pref1 VARCHAR(50), 
+    pref2 VARCHAR(50), 
+    university VARCHAR(50), 
+    faculty VARCHAR(50), 
+    department VARCHAR(50), 
+    gradYear int(4), 
+    reason VARCHAR(800), 
+    q1 VARCHAR(800)
+)
